@@ -34,7 +34,7 @@ outsourced administration, or satellite conferences.
 
 Recently the R Consortium supported the creation of the new satRdays conference
 series. In this case centralized conference management was an objective from the
-start. However....[issues here!].
+start. However, fitting unpaid work on the infrastructure proved difficult.
 
 As both R Consortium supported conferences have a need for the development of
 a conference management system we have joined forces on this proposal.
