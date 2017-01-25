@@ -1,7 +1,7 @@
 Conference Management System for R Consortium Supported Conferences
 ================
 Steph Locke, Heather Turner, Julie Josse, Torben Tvedebrink, Torsten Hothorn, Achim Zeileis
-2017-01-20
+2017-01-23
 
 The Problem
 ===========
@@ -22,7 +22,7 @@ The handling and reviewing of abstracts has been dealt with separately. Solution
 
 Establishing a centralized conference management system would allow a fully-featured conference management system to be developed, with consistency from one year to the next. This would reduce the burden on local organisers and pave the way for future developments of useR!, such as more centralized/ outsourced administration, or satellite conferences.
 
-Recently the R Consortium supported the creation of the new satRdays conference series. In this case centralized conference management was an objective from the start. However....\[issues here!\].
+Recently the R Consortium supported the creation of the new satRdays conference series. In this case centralized conference management was an objective from the start. However, fitting unpaid work on the infrastructure proved difficult.
 
 As both R Consortium supported conferences have a need for the development of a conference management system we have joined forces on this proposal.
 
@@ -155,7 +155,7 @@ Estimated work time:
 
 ### Development Stage (May - June)
 
-Hacing decided on a CMS, Steph will work on putting the system into production, ready for use by useR! 2018 and the next satRdays. This will include creating standard text where possible e.g. for abstract submission instructions, and creating templates that reuse parameters, e.g. abstract submission deadlines.
+Having decided on a CMS, Steph will work on putting the system into production, ready for use by useR! 2018 and the next satRdays. This will include creating standard text where possible e.g. for abstract submission instructions, and creating templates that reuse parameters, e.g. abstract submission deadlines.
 
 Given previous experience of testing each CMS, the team will decide how best to test the system. A certain amount of testing will be done by each team member. Members of the community may be invited to comment on the website and to test the system, in particular this may be necessary to fully test accessibility for the visually impaired.
 
@@ -269,7 +269,7 @@ Definition of done
 <!-- 
 What does success look like? 
 -->
-The project will deliver a new conference management system for R consortium supported conferences.
+The project will deliver a new conference management system for R Consortium supported conferences.
 
 Measuring success
 -----------------
