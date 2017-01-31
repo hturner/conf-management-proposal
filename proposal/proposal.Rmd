@@ -1,16 +1,16 @@
 # The proposal
 <!--
-This is where the proposal should be outlined. 
+This is where the proposal should be outlined.
 -->
 
 ## Overview
 <!--
 At a high-level address what your proposal is and how it will address the problem identified. Highlight any benefits to the R Community that follow from solving the problem. This should be your most compelling section.
 -->
-Our proposal is to evaluate a number of open source conference management 
-systems to assess their suitability for use with useR! and satRdays. We will 
-set up test versions of these systems to test their functionality and ease of 
-use for all roles (systems administrator, local organizer, 
+Our proposal is to evaluate a number of open source conference management
+systems to assess their suitability for use with useR! and satRdays. We will
+set up test versions of these systems to test their functionality and ease of
+use for all roles (systems administrator, local organizer,
 program chair, reviewer, conference participant). A system will be selected and
 a production system set up, with a view to be ready for useR! 2018 and the next
 satRdays conference [or for use after satRdays trial period?]
@@ -28,7 +28,7 @@ Depending on project type the detail section should include:
 
 ### Requirements
 
-The features we are looking for in a conference management system are listed 
+The features we are looking for in a conference management system are listed
 below, essential features are marked with an asterisk.
 
 Software
@@ -48,47 +48,57 @@ Abstract management
  manually (by program chair(s))*
  - Custom review decisions
  - Handle special submissions, e.g. scholarship applications
- 
+
 Scheduling
 
  - Tools to create conference schedule*
  - Drag-and-drop scheduling
  - Conflict management (of topics or people)
- 
+ - Tools for assigning chairs to sessions
+ - Tools for chairs to communicate with session participants,
+ regarding slides, schedule changes
+ - Tools to obtain video recording permission or permission to
+ distribute slides
+ - Tools for assigning poster slots and identifiers
+ - Tools for taking room capacities into account
+
 Participant management
 
  - Register participants, including accepting payments*
  - Participant accounts to make it easy to participate in multiple conferences
  - Ability to email all participants
- - Personal schedules or integration with services such as 
+ - Letter generation facility to request visa (needed for
+   international travelers to conferences)
+ - Personal schedules or integration with services such as
  [Conference4me](http://conference4me.psnc.pl/).
- 
+
 Conference management
 
  - Template for conference website, suitable for different devices, secure and
  accessible to visually impaired*
  - Hosting of presentation slides
  - Ability to clone conference for recurring event
- 
+ - Ability to poll participants on conference issues
+
 Other benefits
 
 Each system will likely have other non-essential benefits, e.g. event evaluation
-surveys, automated email reminders, time zone support, etc that could also be 
+surveys, automated email reminders, time zone support, etc that could also be
 taken into account when comparing systems.
 
 ### Evaluation of Conference Management Systems
 
-We have identified the following conference management systems that appear to 
+We have identified the following conference management systems that appear to
 meet most if not all of the essential criteria in the section above:
 
- - [Open Conference Systems (OCS)](https://pkp.sfu.ca/ocs/) 
+ - [Open Conference Systems (OCS)](https://pkp.sfu.ca/ocs/)
  - [Indico](http://indico-software.org/)
  - [frab](https://frab.github.io/frab/)
  - [Open Source Event Manager (osem)](https://github.com/openSUSE/osem)
- 
-These four systems will be evaluated by setting up a test installation to test 
+
+These four systems will be evaluated by setting up a test installation to test
 the claimed features of each system and identifying the pros and cons of each.
-Based on this evaluation a system will be selected and set up in preparation for 
+Based on this evaluation a system will be selected and set up in preparation for
 useR! 2018 and the next satRdays conference.
 
 
