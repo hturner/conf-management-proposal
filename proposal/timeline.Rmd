@@ -28,7 +28,7 @@ Including target dates is really important as you need to be committed and the I
 We will work through each CMS in turn, with the proposers performing the 
 following roles
 
- - Steph Locke: Set up test system, if time allows consider general issues such 
+ - Locke Data: Set up test system, if time allows consider general issues such 
  as security, accessibility, ability to set up recurring events and handle 
  multiple conferences
  - Full team: Rotate through the following roles and collaboratively edit
@@ -45,49 +45,40 @@ following roles
     - Local organizer - email registered participants, add information to the
     conference website
     
-After evaluating the last CMS, Steph will round up the pros/cons of each CMS, 
+After evaluating the last CMS, Locke Data will round up the pros/cons of each CMS, 
 make further tests as requested by the team and consider additional pros/cons 
 not explicitly tested by the above.
 
 At the end of this stage the team will meet to discuss the pros and cons and 
 make a decision on which CMS to take forward. Some queries may need to be 
-followed up by Steph before a final decision is made.
+followed up by Locke Data before a final decision is made.
 
 Estimated work time:
 
- - Steph: 12 days
+ - Steph: 20 days
  - Others: 10 hours each
 
 ### Development Stage (May - June)
 
-Having decided on a CMS, Steph will work on putting the system into production,
-ready for use by useR! 2018 and the next satRdays. This will include creating 
-standard text where possible e.g. for abstract submission instructions, and 
-creating templates that reuse parameters, e.g. abstract submission deadlines.
+Having decided on a CMS, Locke Data will work on putting the system into production, ready for use by useR! 2018 and the next satRdays. This will include creating standard text where possible e.g. for abstract submission instructions, and creating templates that reuse parameters, e.g. abstract submission deadlines.
 
-Given previous experience of testing each CMS, the team will decide how best to 
-test the system. A certain amount of testing will be done by each team member. 
-Members of the community may be invited to comment on the website 
-and to test the system, in particular this may be necessary to fully test 
-accessibility for the visually impaired.
+Given previous experience of testing each CMS, the team will decide how best to test the system. A certain amount of testing will be done by each team member. Members of the community may be invited to comment on the website and to test the system, in particular this may be necessary to fully test accessibility for the visually impaired.
 
-Steph will make adjustments in response to the testing. Larger changes
-- requiring extensions to the system itself - may need to be addressed in a 
-separate project.
+Locke Data will make adjustments in response to the testing. Larger changes - requiring extensions to the system itself - may need to be addressed in a separate project.
 
 Estimated work time:
 
- - Steph: 8 days
+ - Locke Data: 18 days
  - Others: 8 hours each
 
 ### Production Stage (July - )
 
-Steph will work with the organisers of useR! 2018 and the next satRdays to 
+Locke Data will work with the organisers of useR! 2018 and the next satRdays to 
 provide support in using the new system and make any necessary adjustments.
 
 Estimated work time:
 
- - Steph: 5 days
+ - Locke Data: 5 days
 
 ## Other aspects
 <!--

@@ -42,13 +42,7 @@ What sort of things could come up that can delay or break the project?
  - [ ] Costs
 
 -->
-The availability of Steph to take on the work is key. If for some reason she 
-was unable to conduct the work, it is likely that we would be able to recruit 
-an alternative developer given funding in place. Depending on the exact 
-circumstances we may need to bring in another satRdays organizer to provide
-input on the particular needs of satRdays. In terms of useR! organizers there is
-a much wider pool we could draw from if additional help were necessary on that 
-side.
+Locke Data will be responsible for the successful delivery of this project. As Locke Data is new, they currently have capacity for tackling this project. If they're workload increasses it is anticipated that they will need to increase the proportion of work performed by freelancers. The recruitment of freelancers could cause delays to the project.
 
 It is possible that some obstacle would be meet in attempting to set up a 
 particular CMS. If this could not be overcome, this would simply eliminate the
