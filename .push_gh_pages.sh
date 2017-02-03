@@ -7,9 +7,9 @@ GH_REPO="@github.com/hturner/conf-management-proposal.git"
 
 FULL_REPO="https://$GH_TOKEN$GH_REPO"
 
-# don't want to config git with multiple contributors?
-# git config --global user.name "stephs-travis"
-# git config --global user.email "steph@travis.ci"
+# configure git on travis for this repo; use dummy identity
+git config user.name "Travis CI"
+git config user.email "travis@travis.ci"
 
 R CMD BATCH 'ghgenerate.R'
 cp ghgenerate.Rout out
