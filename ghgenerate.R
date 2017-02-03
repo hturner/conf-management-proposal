@@ -5,5 +5,10 @@ author <- "Steph Locke, Heather Turner, Julie Josse, Torben Tvedebrink, Torsten 
 rmarkdown::render(proposal.file, output_format="github_document",
                   output_dir="out", quiet=TRUE)
 
+# don't know if we need this as wells a github_document? but needed for github 
+# pages thing I think
+rmarkdown::render(proposal.file, output_format="html_document",
+                  output_dir="out", quiet=TRUE)
+
 rmarkdown::render(proposal.file, output_format="pdf_document",
                   output_dir="out", quiet=TRUE)
