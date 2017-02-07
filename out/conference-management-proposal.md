@@ -1,7 +1,7 @@
 Conference Management System for R Consortium Supported Conferences
 ================
-Steph Locke, Heather Turner, Julie Josse, Torben Tvedebrink, Torsten Hothorn, Achim Zeileis
-2017-01-23
+Steph Locke, Heather Turner, Julie Josse, Balasubramanian Narasimhan, Torben Tvedebrink, Torsten Hothorn, Achim Zeileis
+2017-02-06
 
 The Problem
 ===========
@@ -16,21 +16,21 @@ It is important to cover:
  - [ ] Have there been previous attempts to resolve the problem
  - [ ] Why it should be tackled
 -->
-The useR! conference has been successfully managed for over a decade by local organizers. Although knowledge and code is passed on from one year to the next, each time the local organizers set up a new website, on a new domain, and set up their own way to manage abstract submissions, participant registration and conference organization. This means each year a lot of effort, volunteer or paid out of the conference budget, is spent on setting up the conference management system. Participants often have to adjust to a new interface and may find it difficult to find information or use the system. Issues identified one year may never be fixed, or their solutions may not be carried through to the next year.
+The useR! conference has been successfully managed for over a decade by local organizers. Although knowledge and code is passed on from one year to the next, each time the local organizers set up a new website, on a new domain, and set up their own way to manage abstract submissions, participant registration and conference organization. This means each year a lot of effort, either volunteer or paid out of the conference budget, is spent on setting up the conference management system. Participants often have to adjust to a new interface and may find it difficult to find information or use the system. Issues identified one year may never be fixed, or their solutions may not be carried through to the next year.
 
 The handling and reviewing of abstracts has been dealt with separately. Solutions for doing this include using Google Sheets to assign reviewers and allocate ratings, and using a system built by the organizers of useR! 2015 to allow reviewers to view each abstract and add comments. As the number of submissions grows (~350 abstracts for useR! 2016) a more sophisticated system is needed to allocate reviewers and record reviews.
 
-Establishing a centralized conference management system would allow a fully-featured conference management system to be developed, with consistency from one year to the next. This would reduce the burden on local organisers and pave the way for future developments of useR!, such as more centralized/ outsourced administration, or satellite conferences.
+Establishing a centralized conference management system would allow a fully-featured system to be developed, with consistency from one year to the next. This would reduce the burden on local organizers and pave the way for future developments of useR!, such as more centralized/outsourced administration, or satellite conferences.
 
-Recently the R Consortium supported the creation of the new satRdays conference series. In this case centralized conference management was an objective from the start. However, fitting unpaid work on the infrastructure proved difficult.
+Recently the R Consortium supported the creation of the satRdays conference series. In this case centralized conference management was an objective from the start. However, fitting in unpaid work on the infrastructure proved difficult.
 
-As both R Consortium supported conferences have a need for the development of a conference management system we have joined forces on this proposal.
+As both R Consortium supported conferences have a need for the development of a conference management system we have joined forces on this proposal. We see this as a first step in increasing collaboration between groups, and look forward to further work together on infrastructure projects.
 
 The proposal
 ============
 
 <!--
-This is where the proposal should be outlined. 
+This is where the proposal should be outlined.
 -->
 Overview
 --------
@@ -38,7 +38,7 @@ Overview
 <!--
 At a high-level address what your proposal is and how it will address the problem identified. Highlight any benefits to the R Community that follow from solving the problem. This should be your most compelling section.
 -->
-Our proposal is to evaluate a number of open source conference management systems to assess their suitability for use with useR! and satRdays. We will set up test versions of these systems to test their functionality and ease of use for all roles (systems administrator, local organizer, program chair, reviewer, conference participant). A system will be selected and a production system set up, with a view to be ready for useR! 2018 and the next satRdays conference \[or for use after satRdays trial period?\]
+Our proposal is to evaluate a number of open source conference management systems to assess their suitability for use with useR! and satRdays. We will set up test versions of these systems to test their functionality and ease of use for all roles (systems administrator, local organizer, program chair, reviewer, conference participant). A system will be selected and a production system set up, with a view to be ready for useR! 2018 and future satRdays events.
 
 Detail
 ------
@@ -56,56 +56,64 @@ Depending on project type the detail section should include:
 
 The features we are looking for in a conference management system are listed below, essential features are marked with an asterisk.
 
-Software
+#### Software
 
 -   Open source\*
 -   Actively maintained\*
 -   Well documented
--   Free to use for conferences charging participants
 -   Extensible by proposal participants
+-   Integrates with third party payment providers to avoid PCI-DSS\*
+-   Conferences only incur hosting costs if they run it themselves
 
-Abstract management
+#### Abstract management
 
 -   Handles abstract submission, with email notification\*
 -   Allows markdown in abstracts
 -   Allows submitters to edit abstracts
--   System to assign abstracts to reviewers automatically (e.g. by topic) and/or manually (by program chair(s))\*
--   Custom review decisions
--   Handle special submissions, e.g. scholarship applications
+-   Abstracts can be assigned to reviewers automatically (e.g. by topic) and/or manually\*
+-   Allows custom review decisions
+-   Handles special submissions, e.g. scholarship applications
 
-Scheduling
+#### Scheduling
 
 -   Tools to create conference schedule\*
 -   Drag-and-drop scheduling
 -   Conflict management (of topics or people)
+-   Tools for assigning chairs to sessions
+-   Tools for chairs to communicate with session participants, regarding slides, schedule changes
+-   Tools to obtain video recording permission or permission to distribute slides
+-   Tools for assigning poster slots and identifiers
+-   Tools for taking room capacities into account
 
-Participant management
+#### Participant management
 
 -   Register participants, including accepting payments\*
 -   Participant accounts to make it easy to participate in multiple conferences
 -   Ability to email all participants
+-   Letter generation facility to request visa for international participants
 -   Personal schedules or integration with services such as [Conference4me](http://conference4me.psnc.pl/).
 
-Conference management
+#### Conference management
 
 -   Template for conference website, suitable for different devices, secure and accessible to visually impaired\*
 -   Hosting of presentation slides
 -   Ability to clone conference for recurring event
+-   Ability to poll participants on conference issues
 
-Other benefits
+#### Other benefits
 
 Each system will likely have other non-essential benefits, e.g. event evaluation surveys, automated email reminders, time zone support, etc that could also be taken into account when comparing systems.
 
 ### Evaluation of Conference Management Systems
 
-We have identified the following conference management systems that appear to meet most if not all of the essential criteria in the section above:
+We have identified the following conference management systems that appear to meet most, if not all, of the essential criteria in the section above:
 
 -   [Open Conference Systems (OCS)](https://pkp.sfu.ca/ocs/)
 -   [Indico](http://indico-software.org/)
 -   [frab](https://frab.github.io/frab/)
 -   [Open Source Event Manager (osem)](https://github.com/openSUSE/osem)
 
-These four systems will be evaluated by setting up a test installation to test the claimed features of each system and identifying the pros and cons of each. Based on this evaluation a system will be selected and set up in preparation for useR! 2018 and the next satRdays conference.
+These four systems will be evaluated by setting up a test installation to evaluate the claimed features of each system and identify the pros and cons of each. Based on this evaluation, a system will be selected and set up in preparation for useR! 2018 and the next satRdays conference.
 
 Project plan
 ============
@@ -135,44 +143,44 @@ Including target dates is really important as you need to be committed and the I
 
 We will work through each CMS in turn, with the proposers performing the following roles
 
--   Steph Locke: Set up test system, if time allows consider general issues such as security, accessibility, ability to set up recurring events and handle multiple conferences
+-   Locke Data: Set up test system, if time allows consider general issues such as security, accessibility, ability to set up recurring events and handle multiple conferences
 -   Full team: Rotate through the following roles and collaboratively edit document on pros/cons of system
     -   Participant 1: submit abstract, edit abstract, contact local organizer
-    -   Participant 2: submit abstract, register (no payment - or pay nominal amount and refund?)
+    -   Participant 2: submit abstract, register (no payment or pay nominal amount and refund)
     -   Program chair: assign abstracts to reviewers, make final decision, schedule presentations, assign chairs
     -   Reviewer 1: ask for first abstract to be reassigned (to Reviewer 2), review second abstract, make recommendation
     -   Reviewer 2: review first abstract, make recommendation, suggest session for abstract, see if there is a way to group with second abstract
     -   Local organizer - email registered participants, add information to the conference website
 
-After evaluating the last CMS, Steph will round up the pros/cons of each CMS, make further tests as requested by the team and consider additional pros/cons not explicitly tested by the above.
+After evaluating the last CMS, Locke Data will round up the pros/cons of each CMS, make further tests as requested by the team and consider additional pros/cons not explicitly tested by the above.
 
-At the end of this stage the team will meet to discuss the pros and cons and make a decision on which CMS to take forward. Some queries may need to be followed up by Steph before a final decision is made.
+At the end of this stage the team will meet to discuss the pros and cons and make a decision on which CMS to take forward. Some queries may need to be followed up by Locke Data before a final decision is made.
 
 Estimated work time:
 
--   Steph: 12 days
+-   Steph: 20 days
 -   Others: 10 hours each
 
 ### Development Stage (May - June)
 
-Having decided on a CMS, Steph will work on putting the system into production, ready for use by useR! 2018 and the next satRdays. This will include creating standard text where possible e.g. for abstract submission instructions, and creating templates that reuse parameters, e.g. abstract submission deadlines.
+Having decided on a CMS, Locke Data will work on putting the system into production, ready for use by useR! 2018 and the next satRdays. This will include creating standard text where possible e.g. for abstract submission instructions, and creating templates that reuse parameters, e.g. abstract submission deadlines.
 
 Given previous experience of testing each CMS, the team will decide how best to test the system. A certain amount of testing will be done by each team member. Members of the community may be invited to comment on the website and to test the system, in particular this may be necessary to fully test accessibility for the visually impaired.
 
-Steph will make adjustments in response to the testing. Larger changes - requiring extensions to the system itself - may need to be addressed in a separate project.
+Locke Data will make adjustments in response to the testing. Larger changes - requiring extensions to the system itself - may need to be addressed in a separate project.
 
 Estimated work time:
 
--   Steph: 8 days
+-   Locke Data: 18 days
 -   Others: 8 hours each
 
 ### Production Stage (July - )
 
-Steph will work with the organisers of useR! 2018 and the next satRdays to provide support in using the new system and make any necessary adjustments.
+Locke Data will work with the organizers of useR! 2018 and the next satRdays to provide support in using the new system and make any necessary adjustments.
 
 Estimated work time:
 
--   Steph: 5 days
+-   Locke Data: 5 days
 
 Other aspects
 -------------
@@ -200,11 +208,11 @@ People
 <!--
 Who needs to be involved, what's the proposed structure, what will it take to get their involvement?
 -->
-Steph Locke will take on the bulk of the technical work. Steph is a founder of satRdays and managed the centralized infrastructure since its inception.
+Locke Data Ltd will take on the technical work. Locke Data's primary lead for this work will be Steph Locke. Steph is a founder of satRdays and managed the centralized infrastructure since its inception. Locke Data anticipates using freelancers and sub-contractors for some of the work where it is outside of Steph's skillset.
 
-The remaining team members provide expert review and oversight. Heather Turner and Julie Josse have both been local organisers and program chairs of useR!. Torben Tvedebrink was local organiser of useR! 2015 and managed the development of the abstract handling software used in 2015 and 2016. Torsten Hothorn and Achim Zeileis are the permanent members of the R Foundation Conference Committee and founders of useR!.
+The core evaluation team will consist of useR! and R Foundation personnel. Heather Turner and Julie Josse have both been local organizers and program chairs of useR!. Balasubramanian Narasimhan was chair of the local organizing committee for useR! 2016. Torben Tvedebrink was local organizer of useR! 2015 and managed the development of the abstract handling software used in 2015 and 2016. Torsten Hothorn and Achim Zeileis are the permanent members of the R Foundation Conference Committee and founders of useR!.
 
-Finally additional members of the community may be consulted for further testing and advice.
+Additional members of the community may be consulted for further testing and advice.
 
 Processes
 ---------
@@ -214,7 +222,7 @@ What processes need to be put in place e.g. codes of conduct, regular ISC meetin
 -->
 A contributor code of conduct will be adopted to govern the work of the team and future work on the conference management system.
 
-Any development of the CMS itself will be contributed back to the open source project for all to use. Development of content specific to the useR! or satRdays conferences will be owned by the consortium for the purpose of running and maintaining the CMS.
+Any development of the CMS itself will be contributed back to the open source project for all to use. Development of content specific to the useR! or satRdays conferences will be owned by the Consortium for the purpose of running and maintaining the CMS.
 
 Members of the ISC would be invited to join the review meetings towards the end of the evaluation and development stages.
 
@@ -234,7 +242,7 @@ Are there tools or tech that don't exist that will be produced to facilitate the
 -   Hosting of development system
 -   Hosting of production system
 
-The hosting of the test, development and productions systems may require different resources due to the number of people accessing the system and the amount of content added to the system.
+The hosting of the test, development, and productions systems will require different resources due to the number of people accessing the system and the amount of content added to the system.
 
 Funding
 -------
@@ -242,20 +250,37 @@ Funding
 <!--
 A summary of the requirements that contextualises the costs
 -->
-The main cost is for funding Steph's time, as a freelance programmer. This work broken down into milestones, reflecting the project stages outlined in the Technical Delivery section. In addition an honorarium is allowed for the other members of the team, in recognition of the time they will spend reviewing and testing the conference management systems, using their expertise gained from extensive voluntary contributions to R conferences.
+### Total funding cost
 
-| Item                                    |  Cost (USD)|
-|-----------------------------------------|-----------:|
-| Milestone 1: Evaluation of CMS          |        7200|
-| Milestone 2: Development of CMS         |        4800|
-| Milestone 3: Handover to useR!/satRdays |        3000|
-| Honoraria for 5 team members            |        5000|
-| **Total**                               |   **20000**|
+The total requested amount for this project is **$38,750**. A breakdown of this figure is given in the following sections.
+
+### Development costs
+
+The main cost is for the development work associated in evaluating and then implementing an R conference system.
+
+This work is broken down into milestones, reflecting the project stages outlined in the Technical Delivery section. The hourly rate of $100, used in previous R Consortium sponsored projects such as R-Hub, has been used for arriving at costs, based on practicable time estimates for the project.
+
+In addition, an honorarium fund is requested to allow us to recognise the evaluation team (and any community contributors).
+
+| Item                                    |   Cost (USD)|
+|-----------------------------------------|------------:|
+| Milestone 1: Evaluation of CMS          |      $15,000|
+| Milestone 2: Development of CMS         |      $13,500|
+| Milestone 3: Handover to useR!/satRdays |       $3,750|
+| Honorarium fund                         |       $5,000|
+| **Total**                               |  **$37,250**|
 
 ### Hosting
 
--   New sites will need to be created for the test and development systems, however these will be short lived and can be accounted for as a work expense by Steph.
--   The new system could be hosted on a new central site for both conferences; could be added to R-project.org for both conferences, or separately hosted using the same CMS, to be determined. The on-going costs associated with such hosting could be accounted for in the respective conference budgets.
+New sites will need to be created for the test and development systems, and the cost is anticipated to be around $500 to have multiple CMS systems running for evaluation purposes.
+
+Ongoing, we will assume a $1,000 annual consolidated cost for hosting but some or all conferences may prefer to use their funding lines to run their own instances of the software.
+
+| Item            |  Cost (USD)|
+|-----------------|-----------:|
+| Project hosting |        $500|
+| Annual hosting  |       $1000|
+| **Total**       |  **$1,500**|
 
 Success
 =======
@@ -305,8 +330,8 @@ What sort of things could come up that can delay or break the project?
  - [ ] Costs
 
 -->
-The availability of Steph to take on the work is key. If for some reason she was unable to conduct the work, it is likely that we would be able to recruit an alternative developer given funding in place. Depending on the exact circumstances we may need to bring in another satRdays organizer to provide input on the particular needs of satRdays. In terms of useR! organizers there is a much wider pool we could draw from if additional help were necessary on that side.
+Locke Data will be responsible for the successful delivery of this project. Locke Data anticipate using freelancers on a third of the work for the project. If more work needs to be done by freelancers, then the time to recruit people could cause delays.
 
 It is possible that some obstacle would be meet in attempting to set up a particular CMS. If this could not be overcome, this would simply eliminate the CMS from the evaluation. Since we have a good set of candidates, we are confident that at least one can be selected as suitable CMS for useR! and satRdays, even if it does not implement everything on our wish list.
 
-The main cost is associated with the time setting up each CMS and developing the selected CMS. We would prioritise the four candidates, so that if the evaluation phase took longer than expected, we could consider at least three candidates. If the development phase takes longer than expected this could run into the handover time, if necessary passing some of the set up cost onto organizers of the next useR! and satRdays. The proposed timeline aims to handover in July, when useR! 2017 will only just have taken place. Thus a delay of one or even two months could be accommodated with minimal effect on the organisation of the next conference.
+The main cost is associated with the time setting up each CMS and developing the selected CMS. We would prioritise the four candidates, so that if the evaluation phase took longer than expected, we could consider at least three candidates. If the development phase takes longer than expected this could run into the handover time, if necessary passing more of the conference-specific setup onto organizers of the next useR! and satRdays. The proposed timeline aims to handover in July, when useR! 2017 will only just have taken place. Thus a delay of one or even two months could be accommodated with minimal effect on the organization of the next conference.

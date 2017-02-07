@@ -1,56 +1,43 @@
-# The proposal
-<!--
-This is where the proposal should be outlined.
--->
+# The Proposal
 
-## Overview
-<!--
-At a high-level address what your proposal is and how it will address the problem identified. Highlight any benefits to the R Community that follow from solving the problem. This should be your most compelling section.
--->
-Our proposal is to evaluate a number of open source conference management
-systems to assess their suitability for use with useR! and satRdays. We will
-set up test versions of these systems to test their functionality and ease of
-use for all roles (systems administrator, local organizer,
-program chair, reviewer, conference participant). A system will be selected and
-a production system set up, with a view to be ready for useR! 2018 and future satRdays events.
+Our proposal is to evaluate a number of open source CMS to assess their 
+suitability for use with useR! and satRdays, then to select and deploy a CMS in 
+time for useR! 2018 and the next satRday.
 
-## Detail
-<!--
-Go into more detail about the specifics of the project and it delivers against the problem.
+We have identified the following CMS software that appear to meet most, 
+if not all, of our essential requirements:
 
-Depending on project type the detail section should include:
+ - [Open Conference Systems (OCS)](https://pkp.sfu.ca/ocs/)
+ - [Indico](http://indico-software.org/)
+ - [frab](https://frab.github.io/frab/)
+ - [Open Source Event Manager (osem)](https://github.com/openSUSE/osem)
+ 
+We will set up test installations of these systems to evaluate their 
+functionality and ease of use for all roles (systems administrator, 
+local organizer, program chair, reviewer, conference participant). The features
+we are looking for in a CMS are listed below, with essential features 
+marked by an asterisk.
 
- - [ ] Minimum Viable Product
- - [ ] Architecture
- - [ ] Assumptions
--->
-
-### Requirements
-
-The features we are looking for in a conference management system are listed
-below, essential features are marked with an asterisk.
-
-#### Software
+### Software
 
  - Open source*
  - Actively maintained*
  - Well documented
- - Conferences should only incur hosting costs if they run it themselves
  - Extensible by proposal participants
- - Secure
- - Should integrate with third party ppayment providers to avoid PCI-DSS
+ - Integrates with third party payment providers to avoid PCI-DSS*
+ - Conferences only incur hosting costs if they run it themselves
 
-#### Abstract management
+### Abstract management
 
  - Handles abstract submission, with email notification*
  - Allows markdown in abstracts
  - Allows submitters to edit abstracts
- - System to assign abstracts to reviewers automatically (e.g. by topic) and/or
- manually (by program chair(s))*
- - Custom review decisions
- - Handle special submissions, e.g. scholarship applications
+ - Abstracts can be assigned to reviewers automatically (e.g. by topic) and/or
+ manually*
+ - Allows custom review decisions
+ - Handles special submissions, e.g. scholarship applications
 
-#### Scheduling
+### Scheduling
 
  - Tools to create conference schedule*
  - Drag-and-drop scheduling
@@ -63,17 +50,16 @@ below, essential features are marked with an asterisk.
  - Tools for assigning poster slots and identifiers
  - Tools for taking room capacities into account
 
-#### Participant management
+### Participant management
 
  - Register participants, including accepting payments*
  - Participant accounts to make it easy to participate in multiple conferences
  - Ability to email all participants
- - Letter generation facility to request visa (needed for
-   international travelers to conferences)
+ - Letter generation facility to request visa for international participants
  - Personal schedules or integration with services such as
  [Conference4me](http://conference4me.psnc.pl/).
 
-#### Conference management
+### Conference management
 
  - Template for conference website, suitable for different devices, secure and
  accessible to visually impaired*
@@ -81,23 +67,8 @@ below, essential features are marked with an asterisk.
  - Ability to clone conference for recurring event
  - Ability to poll participants on conference issues
 
-#### Other benefits
+### Other benefits
 
 Each system will likely have other non-essential benefits, e.g. event evaluation
 surveys, automated email reminders, time zone support, etc that could also be
 taken into account when comparing systems.
-
-### Evaluation of Conference Management Systems
-
-We have identified the following conference management systems that appear to
-meet most, if not all, of the essential criteria in the section above:
-
- - [Open Conference Systems (OCS)](https://pkp.sfu.ca/ocs/)
- - [Indico](http://indico-software.org/)
- - [frab](https://frab.github.io/frab/)
- - [Open Source Event Manager (osem)](https://github.com/openSUSE/osem)
-
-These four systems will be evaluated by setting up a test installation to evaluate
-the claimed features of each system and identify the pros and cons of each.
-Based on this evaluation, a system will be selected and set up in preparation for
-useR! 2018 and the next satRdays conference.
