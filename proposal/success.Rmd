@@ -8,7 +8,7 @@ Projects should have a definition of done that is measurable, and a thorough und
 What does success look like? 
 How will we know when success is achieved, what markers can we use along the way 
 -->
-The project will deliver a new CMS for R Consortium supported conferences.
+The project will deliver a new CMS for R Consortium supported conferences and supporting documentation to facilitate future administration and development.
 
 The milestones for the project are 
 
