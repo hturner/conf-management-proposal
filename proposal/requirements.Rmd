@@ -7,33 +7,27 @@ An idea of what is required to make the project actually happen
 <!--
 Who needs to be involved, what's the proposed structure, what will it take to get their involvement?
 -->
-Steph Locke will take on the bulk of the technical work. Steph is a founder of
-satRdays and managed the centralized infrastructure since its inception.
+Locke Data Ltd will take on the technical work. Locke Data's primary lead for this work will be Steph Locke. Steph is a founder of
+satRdays and managed the centralized infrastructure since its inception. Locke Data anticipates using freelancers and sub-contractors for some of the work where it is outside of Steph's skillset.
 
-The remaining team members provide expert review and oversight. Heather Turner 
-and Julie Josse have both been local organisers and program chairs of useR!. 
-Torben Tvedebrink was local organiser of useR! 2015 and managed the development
-of the abstract handling software used in 2015 and 2016. Torsten Hothorn and
-Achim Zeileis are the permanent members of the R Foundation Conference Committee
-and founders of useR!.
+The core evaluation team will consist of useR! and R Foundation personnel. Heather Turner and Julie Josse have both been local organizers and program chairs of useR!. Balasubramanian Narasimhan was chair of the local organizing committee for useR! 2016. Torben Tvedebrink was local organizer of useR! 2015 and managed the development of the abstract handling software used in 2015 and 2016. Torsten Hothorn and Achim Zeileis are the permanent members of the R Foundation Conference Committee and founders of useR!.
 
-Finally additional members of the community may be consulted for further testing
-and advice.
+Additional members of the community may be consulted for further testing and advice.
 
 ## Processes
 <!-- 
 What processes need to be put in place e.g. codes of conduct, regular ISC meetings, handover to the community at large?
 -->
 A contributor code of conduct will be adopted to govern the work of the team and
-future work on the conference management system.
+future work on the CMS.
 
 Any development of the CMS itself will be contributed back to the open source 
 project for all to use. Development of content specific to the useR! or satRdays
-conferences will be owned by the consortium for the purpose of running and 
+conferences will be owned by the Consortium for the purpose of running and 
 maintaining the CMS.
 
-Members of the ISC would be invited to join the review meetings towards the end 
-of the evaluation and development stages.
+ISC members would be invited to join review meetings during the evaluation and 
+development stages.
 
 ## Tools & Tech
 <!--
@@ -43,43 +37,42 @@ Will cloud computing be used - if yes are there are necessary components that wi
 
 Are there tools or tech that don't exist that will be produced to facilitate the project?
 -->
- - GitHub for team collaboration (public)
- - Each CMS
- - Hosting of test systems
- - Hosting of development system
- - Hosting of production system
- 
-The hosting of the test, development and productions systems may require 
-different resources due to the number of people accessing the system and the 
-amount of content added to the system. 
+We will use a public GitHub for team collaboration. All the candidate CMS are
+open source and free to use.
+
+The test, development, and productions systems will require hosting on a 
+dedicated virtual machine (running Debian, with backup and cloning) 
+in a secure environment. The scale will vary through the project according to 
+the number of people accessing the system and the amount of content added to the
+system. 
 
 ## Funding
 <!--
 A summary of the requirements that contextualises the costs
 -->
 
-The main cost is for funding Steph's time, as a freelance programmer. This work 
-broken down into milestones, reflecting the project stages outlined in the 
-Technical Delivery section. In addition an honorarium is allowed for the other
-members of the team, in recognition of the time they will spend reviewing and 
-testing the conference management systems, using their expertise gained from 
-extensive voluntary contributions to R conferences.
+### Development costs
+The main cost is for the development work associated with CMS evaluation and deployment. This work is broken down into milestones, reflecting the project stages outlined in the Technical Delivery section. The hourly rate of $100, used in previous R Consortium sponsored projects such as R-Hub, has been used to arrive at costs. 
+
+In addition, an honorarium fund is requested to allow us to recognise the evaluation team (and any significant community contributions).
 
 | Item | Cost (USD) |
 | ---- | ----:|
-| Milestone 1: Evaluation of CMS | 7200  |
-| Milestone 2: Development of CMS | 4800 |
-| Milestone 3: Handover to useR!/satRdays | 3000 |
-| Honoraria for 5 team members | 5000 |
-| **Total** | **20000** |
-
+| Milestone 1: Evaluation of CMS | 15,000  |
+| Milestone 2: Development of CMS | 13,500 |
+| Milestone 3: Handover to useR!/satRdays | 3,750 |
+| Honorarium fund | 6,000 |
+| **Total** | **38,250** |
 
 ### Hosting
 
- - New sites will need to be created for the test and development systems, 
- however these will be short lived and can be accounted for as a work expense by 
- Steph.
- - The new system could be hosted on a new central site for both conferences; 
- could be added to R-project.org for both conferences, or separately hosted 
- using the same CMS, to be determined. The on-going costs associated with such 
- hosting could be accounted for in the respective conference budgets.
+The hosting cost is anticipated to be around $500 to have multiple CMS systems 
+running for evaluation purposes. Ongoing, we assume a $1,000 annual consolidated 
+cost for hosting but some or all conferences may prefer to use their funding 
+lines to run their own instances of the software.
+
+| Item | Cost (USD) |
+| ---- | ----:|
+| Project hosting | 500  |
+| Annual hosting | 1000 |
+| **Total** | **1,500** |

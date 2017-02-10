@@ -2,6 +2,7 @@
 title: "`r proposal`"
 author: "`r author`"
 date: "`r Sys.Date()`"
+geometry: top=0.9in, bottom=0.9in, left=0.9in, right=.9in
 output: html_document
 ---
 
