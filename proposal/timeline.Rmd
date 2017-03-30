@@ -57,7 +57,7 @@ Given previous experience of testing each CMS, the full team will decide how bes
 
 Locke Data will make adjustments in response to the testing. Larger changes - requiring extensions to the system itself - may need to be addressed in a separate project.
 
-*Estimated work time: 18 days (Locke Data); 8 hours each (evaluation team).*
+*Estimated work time: 17 days (Locke Data); 8 hours each (evaluation team).*
 
 ### Production Stage (July - )
 

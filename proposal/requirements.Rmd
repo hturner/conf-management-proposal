@@ -51,28 +51,18 @@ system.
 A summary of the requirements that contextualises the costs
 -->
 
-### Development costs
-The main cost is for the development work associated with CMS evaluation and deployment. This work is broken down into milestones, reflecting the project stages outlined in the Technical Delivery section. The hourly rate of $100, used in previous R Consortium sponsored projects such as R-Hub, has been used to arrive at costs. 
+The main cost is for the development work associated with CMS evaluation and deployment, that will be conducted by Locke Data. This work is broken down into milestones, reflecting the project stages outlined in the Technical Delivery section. The hourly rate of $100, used in previous R Consortium sponsored projects such as R-Hub, has been used to arrive at costs. 
 
-In addition, an honorarium fund is requested to allow us to recognise the evaluation team (and any significant community contributions).
+The hosting cost is anticipated to be around $500 to have multiple CMS systems 
+running for evaluation purposes. The ongoing hosting costs are not covered here, we assume they will be accounted for in the conference budgets.
+
+The R Consortium have offered part-funding of USD 19,000 for this project, which is subtracted from the costs to leave USD 13,000 which we request the R Foundation to fund.
 
 | Item | Cost (USD) |
 | ---- | ----:|
 | Milestone 1: Evaluation of CMS | 15,000  |
-| Milestone 2: Development of CMS | 13,500 |
+| Milestone 2: Development of CMS | 12,750 |
 | Milestone 3: Handover to useR!/satRdays | 3,750 |
-| Honorarium fund | 6,000 |
-| **Total** | **38,250** |
-
-### Hosting
-
-The hosting cost is anticipated to be around $500 to have multiple CMS systems 
-running for evaluation purposes. Ongoing, we assume a $1,000 annual consolidated 
-cost for hosting but some or all conferences may prefer to use their funding 
-lines to run their own instances of the software.
-
-| Item | Cost (USD) |
-| ---- | ----:|
-| Project hosting | 500  |
-| Annual hosting | 1000 |
-| **Total** | **1,500** |
+| Project Hosting | 500 |
+| R Consortium Funding| -19,000 |
+| **Total** | **13,000** |
